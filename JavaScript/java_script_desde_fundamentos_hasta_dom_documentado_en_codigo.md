@@ -318,14 +318,3 @@ input.addEventListener("input", () => {
 
 ---
 
-📌 **Siguiente pasos recomendados**:
-- LocalStorage / SessionStorage
-- Fetch API real
-- Módulos (import / export)
-- Clean Code y patrones
-
-Si quieres, puedo:
-- convertir esto en **chuleta rápida**
-- adaptarlo a **nivel novato / intermedio / pro**
-- o llevarlo a **JS moderno + proyectos reales**
-
