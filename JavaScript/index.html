@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/devops/CincinnatusWork/JavaScript/style.css">
+
+</head>
+<body>
+    <div class="calc">
+        <form name="calculadora" id="calculadora">
+            <input type="text" name="display" id="display" readonly>
+                <div class="type_but" id="tb">
+                    <input type="button" value="1" onclick="insert_value(this.value)">
+                    <input type="button" value="2" onclick="insert_value(this.value)">
+                    <input type="button" value="3" onclick="insert_value(this.value)">
+                    <input type="button" value="+" onclick="insert_value(this.value)">
+                </div>
+                <div class="type_but" id="tb">
+                    <input type="button" value="4" onclick="insert_value(this.value)">
+                    <input type="button" value="5" onclick="insert_value(this.value)">
+                    <input type="button" value="6" onclick="insert_value(this.value)">
+                    <input type="button" value="-" onclick="insert_value(this.value)">
+                </div>
+                <div class="type_but" id="tb">
+                    <input type="button" value="7" onclick="insert_value(this.value)">
+                    <input type="button" value="8" onclick="insert_value(this.value)">
+                    <input type="button" value="9" onclick="insert_value(this.value)">
+                    <input type="button" value="*" onclick="insert_value(this.value)">
+                </div>
+                <div class="type_but" id="tb">
+                    <input type="button" value="0" onclick="insert_value(this.value)">
+                    <input type="button" value="." onclick="insert_value(this.value)">
+                    <input type="button" value="/" onclick="insert_value(this.value)">
+                    <input type="button" value="%" onclick="insert_value(this.value)">
+                </div>
+                <div class="resp">
+                    <input type="button" value="=" id="same" onclick="cal_result()">
+                    <input type="button" name="" id="del" value="" onclick="deletedisplay(this.value)">
+                </div>
+        </form>
+
+    </div>
+
+    <script src="/devops/CincinnatusWork/JavaScript/code.js"></script>
+</body>
+</html>
