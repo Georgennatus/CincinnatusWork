@@ -1,0 +1,131 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* FONDO */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTENEDOR CALCULADORA */
+.calc {
+    background: #1c1c2b;
+    padding: 20px;
+    border-radius: 18px;
+    width: 320px;
+    box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.6),
+        inset 0 0 10px rgba(255, 255, 255, 0.03);
+}
+
+/* DISPLAY */
+#display {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 12px;
+    background: #0f0f1a;
+    color: #00ffcc;
+    font-size: 1.8rem;
+    text-align: right;
+    padding: 10px 15px;
+    outline: none;
+    box-shadow: inset 0 0 10px rgba(0, 255, 204, 0.15);
+}
+
+/* FILAS DE BOTONES */
+.type_but {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* BOTONES */
+input[type="button"] {
+    height: 55px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background: #2a2a3f;
+    color: #ffffff;
+    box-shadow: 0 6px 0 #1a1a2a;
+    transition: all 0.15s ease;
+}
+
+/* EFECTO HOVER */
+input[type="button"]:hover {
+    background: #3a3a55;
+}
+
+/* EFECTO CLICK */
+input[type="button"]:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #1a1a2a;
+}
+
+/* OPERADORES */
+input[value="+"],
+input[value="-"],
+input[value="*"],
+input[value="/"],
+input[value="%"] {
+    background: #ff7a18;
+    box-shadow: 0 6px 0 #c95f10;
+}
+
+input[value="+"]:hover,
+input[value="-"]:hover,
+input[value="*"]:hover,
+input[value="/"]:hover,
+input[value="%"]:hover {
+    background: #ff9a3c;
+}
+
+/* FILA RESULTADO */
+.resp {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* BOTÓN IGUAL */
+#same {
+    background: linear-gradient(135deg, #00ffcc, #00bfa6);
+    color: #0f0f1a;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0 6px 0 #009e8a;
+}
+
+#same:hover {
+    filter: brightness(1.1);
+}
+
+/* BOTÓN DELETE */
+#del {
+    background: #ff3b3b;
+    box-shadow: 0 6px 0 #c92a2a;
+    position: relative;
+}
+
+#del::before {
+    content: "DEL";
+    color: white;
+    font-weight: bold;
+}
+
+#del:hover {
+    background: #ff5c5c;
+}
