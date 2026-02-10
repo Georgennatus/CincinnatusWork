@@ -11,3 +11,6 @@ i learn a lot here lol, so i'm gonna add more things here because i lose it
 i finally get it (again)
 ## 1.5: Node Advance
 i finally get it (again)
+
+## 1.6: NodeJs Completed!
+added a automatization code for self backup
