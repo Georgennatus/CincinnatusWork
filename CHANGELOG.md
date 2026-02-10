@@ -14,3 +14,6 @@ i finally get it (again)
 
 ## 1.6: NodeJs Completed!
 added a automatization code for self backup
+
+## 1.7: Python Completed!
+i do the two system they need
