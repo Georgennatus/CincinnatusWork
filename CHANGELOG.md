@@ -25,4 +25,6 @@ ts is ahh
 
 ##2.0: SO(Operative System) | Networks | Web Servers Completed!
 
-##2.1: Nginx Completed
+##2.1: Nginx Completed!
+
+##2.2: Apache Completed!
