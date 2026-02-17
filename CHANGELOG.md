@@ -17,3 +17,5 @@ added a automatization code for self backup
 
 ## 1.7: Python Completed!
 i do the two system they need
+
+## 1.8: OS completed!
