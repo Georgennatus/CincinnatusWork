@@ -24,3 +24,5 @@ i do the two system they need
 ts is ahh
 
 ##2.0: SO(Operative System) | Networks | Web Servers Completed!
+
+##2.1: Nginx Completed
