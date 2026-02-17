@@ -19,3 +19,6 @@ added a automatization code for self backup
 i do the two system they need
 
 ## 1.8: OS completed!
+
+##1.9: GNU/LINUX Completed!
+ts is ahh
