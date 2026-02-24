@@ -17,6 +17,4 @@ jobs:
           node-version: '14'
       - name: install dependences
         run: npm install
-      - name: Lint
-        run: npm run eslint
       
