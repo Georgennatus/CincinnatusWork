@@ -30,3 +30,5 @@ ts is ahh
 ##2.2: Apache Completed!
 
 ##2.4: Dev Networks Completed!
+
+##2.5: DOCKER and Jenkins doned!
