@@ -20,15 +20,17 @@ i do the two system they need
 
 ## 1.8: OS completed!
 
-##1.9: GNU/LINUX Completed!
+##  1.9: GNU/LINUX Completed!
 ts is ahh
 
-##2.0: SO(Operative System) | Networks | Web Servers Completed!
+##  2.0: SO(Operative System) | Networks | Web Servers Completed!
 
-##2.1: Nginx Completed!
+##  2.1: Nginx Completed!
 
-##2.2: Apache Completed!
+##  2.2: Apache Completed!
 
-##2.4: Dev Networks Completed!
+##  2.4: Dev Networks Completed!
 
-##2.5: DOCKER and Jenkins doned!
+##  2.5: DOCKER and Jenkins doned!
+
+## 2.6: Terraform added!
